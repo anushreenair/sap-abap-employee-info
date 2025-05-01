@@ -1,0 +1,11 @@
+@AbapCatalog.sqlViewName: 'ZV_EMPLOYEE'
+@AbapCatalog.compiler.compareFilter: true
+@AccessControl.authorizationCheck: #NOT_REQUIRED
+@EndUserText.label: 'Employee CDS View'
+define view ZCDS_EMPLOYEE as select from ZEMPLOYEE
+{
+  EMP_ID,
+  concat(FIRST_NAME, ' ', LAST_NAME) as FULL_NAME,
+  DOJ,
+  DEPT
+}

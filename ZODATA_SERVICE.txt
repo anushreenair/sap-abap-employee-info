@@ -1,0 +1,11 @@
+* OData Service Definition (Pseudo-code)
+* Normally created via SEGW or @OData.publish: true
+
+@OData.publish: true
+define view ZCDS_EMPLOYEE as select from ZEMPLOYEE
+{
+  EMP_ID,
+  concat(FIRST_NAME, ' ', LAST_NAME) as FULL_NAME,
+  DOJ,
+  DEPT
+}
