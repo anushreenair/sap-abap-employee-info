@@ -6,10 +6,11 @@ A basic project simulating an SAP ABAP backend with:
 - CDS View: ZCDS_EMPLOYEE (with calculated full name)
 - OData service published from CDS view
 
-## How to Use
-This code is for demonstration. It needs to be deployed in an SAP NetWeaver system using SE11, Eclipse ADT, and SEGW.
+How to Use
+This code is for demonstration. It needs to be deployed in an  
+*SAP NetWeaver system using SE11, Eclipse ADT, and SEGW.
 
-## Files
+ Files
 - ZTABLE_EMPLOYEE.txt: Table definition
 - ZCDS_EMPLOYEE.txt: CDS view definition
 - ZODATA_SERVICE.txt: OData publish annotation
